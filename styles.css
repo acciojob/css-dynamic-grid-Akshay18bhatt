@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+.grid-container{
+	display:flex;
+}
+@media screen and (max-width:1000px){
+	.grid-container{
+		flex-wrap:wrap;
+		justify-content:space-evenly;
+	}
+}
+.grid-item{
+	background-color:lightgray;
+	height:150px;
+	width:200px;
+	border-radius:50px;
+	font-size:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
